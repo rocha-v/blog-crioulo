@@ -34,12 +34,12 @@ body {
 }
 
 header {
-	border-bottom: 1px solid #F78B1F;
+	border-bottom: 2px solid #a8150d;
 }
 
 header .foto__inicio{
 	height:8rem;
-	width:8rem;
+	width:12rem;
 }
 
 .container {
@@ -47,7 +47,7 @@ header .foto__inicio{
 	margin: 0 auto;
 	display: flex;
 	justify-content: space-between;
-	height: 100px;
+	height: 150px;
 	align-items: center;
 }
 
@@ -251,7 +251,7 @@ header .foto__inicio{
 }
 
 footer {
-	border-top: 1px solid #F78B1F;
+	border-top: 1px solid #a8150d;
 }
 
 footer .container {
