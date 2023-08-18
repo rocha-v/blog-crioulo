@@ -172,21 +172,21 @@ header .foto__inicio{
 	color: #f6fbfc;
 	font-family: 'Commissioner', sans-serif;
 	font-size: 2rem;
-	margin: 3rem 0;
+	margin: 2rem 0;
 }
 
 #cartao1 .cartao1__foto {
-	width: 50%;
+	width: 45%;
 	border-radius: 5%;
 }
 
 #cartao1 .cartao1__apresentacao {
+	width: 100%;
 	display: flex;
 	flex-direction: column;
 	text-align: center;
 	color: #f6fbfc;
 	font-family: 'Commissioner', sans-serif;
-	
 	background-color: #99d1be;
 }
 
