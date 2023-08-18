@@ -173,11 +173,11 @@ header .foto__inicio{
 	color: #f6fbfc;
 	font-family: 'Commissioner', sans-serif;
 	font-size: 2rem;
-	margin: 5rem 0;
+	margin: 2rem 0;
 }
 
 #cartao1 .cartao1__foto {
-	width: 300px;
+	width: 200px;
 	border-radius: 5%;
 }
 
