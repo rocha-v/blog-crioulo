@@ -47,7 +47,7 @@ header .foto__inicio{
 .link-menu {
 	color: #edf2f5;
 	font-family: 'Poppins', serif;
-	font-size: 1rem;
+	font-size: 1.25rem;
 	text-decoration: none;
 }
 
@@ -163,8 +163,8 @@ header .foto__inicio{
 }
 
 #cartao1 .cartao1__header {
-	width: 1280px;
-	height: 160px;
+	width: auto;
+	height: 10rem;
 	background-image: url('https://static6.depositphotos.com/1009659/619/i/450/depositphotos_6190154-stock-photo-blue-background-with-net.jpg');
 	background-repeat: repeat-x;
 }
@@ -182,8 +182,6 @@ header .foto__inicio{
 }
 
 #cartao1 .cartao1__apresentacao {
-	width: 620px;
-	height: 300px;
 	display: flex;
 	flex-direction: column;
 	text-align: center;
