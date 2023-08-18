@@ -179,9 +179,6 @@ header .foto__inicio{
 #cartao1 .cartao1__foto {
 	width: 300px;
 	border-radius: 5%;
-	position: absolute;
-	top: 55px;
-	left: 230px;
 }
 
 #cartao1 .cartao1__apresentacao {
