@@ -162,21 +162,22 @@ header .foto__inicio{
 	}
 }
 
-#cartao1 .cartao1__hearder {
+#cartao1 .cartao1__header {
 	width: 1280px;
 	height: 160px;
 	background-image: url('https://static6.depositphotos.com/1009659/619/i/450/depositphotos_6190154-stock-photo-blue-background-with-net.jpg');
 	background-repeat: repeat-x;
 }
 
-#cartao1 .cartao1__hearder h1{
+#cartao1 .cartao1__header h1{
 	color: #f6fbfc;
 	font-family: 'Commissioner', sans-serif;
 	font-size: 2rem;
+	margin: 5rem 0;
 }
 
 #cartao1 .cartao1__foto {
-	width: 110px;
+	width: 300px;
 	border-radius: 5%;
 	position: absolute;
 	top: 55px;
