@@ -190,6 +190,8 @@ header .foto__inicio{
 	margin-top: 80px;
 	color: #f6fbfc;
 	font-family: 'Commissioner', sans-serif;
+	
+	background-color: #99d1be;
 }
 
 #cartao1 .cartao1__titulo {
@@ -221,6 +223,8 @@ header .foto__inicio{
 	display: flex;
 	flex-direction: column;
 	margin: 0 auto;
+
+	background-color:#a377d1;
 }
 
 
