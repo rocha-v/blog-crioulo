@@ -84,7 +84,7 @@ header .foto__inicio{
 
 
 #cartao1 {
-	background: linear-gradient(#1e6462, #2f8b7c, #0c3133);
+	background: linear-gradient(#4682B4, #1E90FF, #87CEEB);
 	position: relative;
 	display: flex;
 	flex-direction: column;
