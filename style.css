@@ -179,11 +179,11 @@ header .foto__inicio{
 	width: 1280px;
 	height: 160px;
 	background-image: url('https://static6.depositphotos.com/1009659/619/i/450/depositphotos_6190154-stock-photo-blue-background-with-net.jpg');
-	background-repeat: repeat-x;
+	background-repeat: no-repeat;
 }
 
 #cartao1 .cartao1__foto {
-	width: 160px;
+	width: 200px;
 	border-radius: 5%;
 	position: absolute;
 	top: 55px;
