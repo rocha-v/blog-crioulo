@@ -3,20 +3,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Commissioner:wght@300;500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
 
-@font-face {
-	font-family: "RocherColorGX";
-	src: url("https://res.cloudinary.com/dldmpwpcp/raw/upload/v1618681463/RocherColorGX-768140da_pydqor.woff2")
-		format("woff2 supports variations");
-	src: url("https://res.cloudinary.com/dldmpwpcp/raw/upload/v1618681463/RocherColorGX-768140da_pydqor.woff2")
-		format("woff2-variations");
-	font-display: swap;
-}
-
-
-:root {
-	--cor-fonte-jackson: #dfca3a;
-}
-
 html {
 	height: 100%;
 	width: 100%;
@@ -61,6 +47,7 @@ header .foto__inicio{
 .link-menu {
 	color: #005594;
 	font-family: 'Poppins', serif;
+	font-size: 1.5rem;
 	text-decoration: none;
 }
 
@@ -75,7 +62,6 @@ header .foto__inicio{
 	display: flex;
 	flex-wrap: wrap;
 	gap: 40px;
-	
 }
 
 .cartao {
@@ -183,6 +169,12 @@ header .foto__inicio{
 	background-repeat: repeat-x;
 }
 
+#cartao1 .cartao1__hearder h1{
+	color: #f6fbfc;
+	font-family: 'Commissioner', sans-serif;
+	font-size: 2rem;
+}
+
 #cartao1 .cartao1__foto {
 	width: 110px;
 	border-radius: 5%;
@@ -233,23 +225,6 @@ header .foto__inicio{
 	margin: 0 auto;
 }
 
-#cartao1 .cartao1__links {
-	display: flex;
-	list-style: none;
-	margin: 0 auto;
-}
-
-#cartao1 .cartao1__botao i {
-	font-size: 30px;
-	padding: 0 6px;
-	color: #f6fbfc;
-	transition: transform 0.5s;
-}
-
-#cartao1 .cartao1__botao i:hover {
-	color: #54d7c4;
-	transform: scale(1.5);
-}
 
 footer {
 	border-top: 1px solid #a8150d;
@@ -260,23 +235,7 @@ footer .container {
 	color: #005594;
 }
 
-.midias-empresas,
-.empresas-parceiras {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	gap: 16px;
-	font-weight: bold;
-}
 
-.social-media-icons,
-.logo-empresas-icones {
-	display: flex;
-	align-items: center;
-	gap: 16px;
-}
-
-/* Responsividade */
 @media screen and (max-width: 1280px) {
   .container {
     width: 720px;
